@@ -1,0 +1,19 @@
+{
+  "name": "shaka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "shaka-player": "^2.5.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "scripts": {
+    "start:dev": "webpack-dev-server --config webpack.dev.js --mode development --hot --content-base dist"
+  }
+}
